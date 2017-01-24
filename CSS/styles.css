@@ -1,0 +1,107 @@
+/*******************************************
+
+Project Name: Checkers
+Author/Authors: Quinn Haley
+Date: 1/11/17
+*******************************************/
+
+
+.board {
+	box-shadow: 5px 5px 5px rgba(0,0,0,.8);
+}
+
+.circle {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px; 
+	z-index: 1;
+	position: relative;
+	box-shadow: 4px 4px 4px rgba(80,80,80,.7);
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight,
+ .A, .B, .C, .D, .E, .F, .G, .H {
+ 	text-shadow: 5px 5px 5px rgba(0,0,0,.8);
+ 	font-size: 2em;
+ 	position: absolute;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight {
+	top: 812px;
+}
+.one {
+	left: 50px;
+}
+
+.two {
+	left: 150px;
+}
+.three {
+	left: 250px;
+}
+.four {
+	left: 350px;
+}
+.five {
+	left: 450px;
+}
+.six {
+	left: 550px;
+}
+.seven {
+	left: 650px;
+}
+.eight {
+	left: 750px;
+}
+.A, .B, .C, .D, .E, .F, .G, .H {
+	left: 810px;
+}
+.A {
+	top: 42px;
+}
+.B {
+	top: 142px;
+}
+.C {
+	top: 242px;
+}
+.D {
+	top: 342px;
+}
+.E {
+	top: 442px;
+}
+.F {
+	top: 542px;
+}
+.G {
+	top: 642px;
+}
+.H {
+	top: 742px;
+}
+.R-one,
+.R-two,
+.R-three,
+.R-four,
+.R-five,
+.R-six,
+.R-seven,
+.R-eight,
+.R-nine,
+.R-ten,
+.R-eleven,
+.R-twelve,
+.B-one,
+.B-two,
+.B-three,
+.B-four,
+.B-five,
+.B-six,
+.B-seven,
+.B-eight,
+.B-nine,
+.B-ten,
+.B-eleven,
+.B-twelve {
+	position: absolute;
+}

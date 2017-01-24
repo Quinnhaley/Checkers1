@@ -1,0 +1,178 @@
+
+
+ /*  RULES---------
+	I ASSUME WE ALL KNOW HOW TO PLAY THIS GAME SO I'LL JUST
+	EXPLAIN SOME FEATURES
+
+	IN THE SCORE BOARD BELOW PLEASE RECORD YOUR MOVES (EX: 1C-2D)
+	THIS ALLOWS EACH PLAYER TO BE VERY AWARE OF EACHOTHERS MOVES
+	AND CREATES A HELPFUL MOVE HIDTORY
+
+	THERE ARE NO TAKE BACKSIES (YOU HAVE AS MUCH TIME AS YOU 
+	WAMT/NEED TO MAKE YOUR MOVE SO THERE IS NO REASON TO HAVE TO
+	"UNDO" A MOVE)
+
+	THE *22.5* IN THE POSITION OF THE PIECES HAS NO REASON TO BE
+	MOVED (JUST A HINT)
+
+	*DO NOT* MESS WITH THE "styles.css" AS THERE IS NO REASON TO
+
+	**IMPORTANT**
+	WHEN TAKING A PIECE SIMPLY GO INTO THE HTML AND PLUG IN THE 
+	CLASS "out"
+
+	EACH BOX ON THE BOARD IS  A (100 x 100) BOX
+
+	BE SPORTSMAN LIKE AND DONT MOVE THE OTHER PLAYERS PIECES
+
+
+	END OF RULES------ GLHF
+
+
+	GREEN MOVES
+	***********
+
+
+
+
+
+
+
+
+	WHITE MOVES
+	***********
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+/******************************************************
+*******************************************************
+                   	GREEN PIECES
+*******************************************************
+******************************************************/
+
+
+.R-one { /*1A*/
+	top: 22.5px;
+	left: 22.5px;
+}
+.R-two { /*3A*/
+	top: 22.5px;
+	left: 222.5px;
+}
+.R-three {  /*5A*/
+	top: 22.5px;
+	left: 422.5px;
+}
+.R-four { /*7A*/
+	top: 22.5px;
+	left: 622.5px
+}
+.R-five { /*2B*/
+	top: 122.5px;
+	left: 122.5px;
+}
+.R-six { /*4B*/
+	top: 122.5px;
+	left: 322.5px;
+}
+.R-seven { /*6B*/
+	top: 122.5px;
+	left: 522.5px;
+}
+.R-eight { /*8B*/
+	top: 122.5px;
+	left: 722.5px;
+}
+.R-nine { /*1C*/
+	top: 222.5px;
+	left: 22.5px;
+}
+.R-ten { /*3C*/
+	top: 222.5px;
+	left: 222.5px;
+}
+.R-eleven { /*5C*/
+	top: 222.5px;
+	left: 422.5px;
+}
+.R-twelve { /*7C*/
+	top: 222.5px;
+	left: 622.5px;
+}
+
+
+/******************************************************
+*******************************************************
+                    WHITE PIECES
+*******************************************************
+******************************************************/
+
+
+.B-one { /*2H*/
+	top: 722.5px;
+	left: 122.5px;
+}
+.B-two { /*4H*/
+	top: 722.5px;
+	left: 322.5px;
+}
+.B-three { /*6H*/
+	top: 722.5px;
+	left: 522.5px;
+}
+.B-four { /*8H*/
+	top: 722.5px;
+	left: 722.5px;
+}
+.B-five { /*1G*/
+	top: 622.5px;
+	left: 22.5px;
+}
+.B-six { /*3G*/
+	top: 622.5px;
+	left: 222.5px;
+}
+.B-seven { /*5G*/
+	top: 622.5px;
+	left: 422.5px;
+}
+.B-eight { /*7G*/
+	top: 622.5px;
+	left: 622.5px;
+}
+.B-nine { /*2F*/
+	top: 522.5px;
+	left: 122.5px;
+}
+.B-ten { /*4F*/
+	top: 522.5px;
+	left: 322.5px;
+}
+.B-eleven { /*6F*/
+	top: 522.5px;
+	left: 522.5px;
+}
+.B-twelve { /*8F*/
+	top: 522.5px;
+	left: 722.5px;
+}
+
+
+
+
+
+/**********************************************
+**********************************************/
+.out { left: 100000000px; }
+/**********************************************
+**********************************************/
